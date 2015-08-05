@@ -1,0 +1,2 @@
+<h1>Team Black Dog: Portal Hitlist</h1>
+<%= link_to 'Hit List', controller: 'targets' %>

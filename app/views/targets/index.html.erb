@@ -1,0 +1,15 @@
+<h1>Listing targets</h1>
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @targets.each do |target| %>
+    <tr>
+      <td><%= target.name %></td>
+      <td><%= target.intellink %></td>
+    </tr>
+  <% end %>
+</table>

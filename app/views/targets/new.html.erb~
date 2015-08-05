@@ -1,0 +1,18 @@
+<h1>New Article</h1>
+<%= form_for :target, url: targets_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :intellink %><br>
+    <%= f.text_field :intellink %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', targets_path %>
